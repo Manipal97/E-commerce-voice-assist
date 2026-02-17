@@ -6,8 +6,8 @@ add items with quantities ("add 2 running shoes"), remove items ("remove 1 shoes
 ==>Features
 
 Voice search via mic button or direct speech
-Add items with quantities and remove items (partial or all)
-Cart, checkout, and order confirmation flows
+Add items with quantities and remove items (partial or with numbers)
+Cart, checkout, and search or filter products
 Lightweight NLP intent parsing + Web Speech API
 
 ==> Quick start
