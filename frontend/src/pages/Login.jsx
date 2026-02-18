@@ -36,7 +36,8 @@ export default function Login() {
         navigate("/");
       },1000);
     } catch(err){
-      setMsg(err.response?.data?.message || "An error occurred" );
+      // setMsg(err.response?.data?.message || "An error occurred" );
+      toast.error(err.response?.data?.message || "An error occurred");
     }
   }
 

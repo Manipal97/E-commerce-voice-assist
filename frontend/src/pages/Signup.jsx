@@ -26,12 +26,13 @@ export default function Signup() {
     try{
       const response=await api.post("/auth/signup",form);
       setMsg(response.data.message);
-      toast.success('singup successful')
+      toast.success('signup successful')
       navigate("/Login");
   
 
     } catch(err){
-      setMsg(err.response?.data?.message || "An error occurred" );
+      // setMsg(err.response?.data?.message || "An error occurred" );
+      toast.error(err.response?.data?.message || "An error occurred");
     }
   }
 
