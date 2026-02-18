@@ -3,6 +3,11 @@ Voice‑Controlled E‑Commerce
 A hands‑free MERN + Vite store with a microphone-driven assistant. Click the mic button or speak directly to search products ("search for red sneakers"), 
 add items with quantities ("add 2 running shoes"), remove items ("remove 1 shoes" or "remove shoes"), and manage your cart and checkout entirely by voice or UI.
 
+==> THIS IS THE URL WHERE THE WHOLE APP IS DEPLOYED <==
+
+https://e-commerce-voice-assist-frontend.vercel.app/
+
+
 ==>Features
 
 Voice search via mic button or direct speech
@@ -11,6 +16,7 @@ Cart, checkout, and search or filter products
 Lightweight NLP intent parsing + Web Speech API
 
 ==> Quick start
+
 # backend
 cd backend
 npm install
