@@ -7,6 +7,8 @@ add items with quantities ("add 2 running shoes"), remove items ("remove 1 shoes
 
 https://e-commerce-voice-assist-frontend.vercel.app/
 
+NOTE = > THE URL CREATING SOME PROBLEM IN RELOADING DATA SO OPEN IT 2 0R 3 TIMES AND WAIT FEW SECOND TO RELOADING FULL DATA ON SECREEN..
+
 
 ==>Features
 
